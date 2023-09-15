@@ -1,0 +1,49 @@
+title: "skal.red"
+author: "Red Skal"
+description: "Red Skal's blog"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+github_username: "redskal"
+twitter_username: "sam_phisher"
+
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+show_related: true
+show_description: true
+
+paginate: 5
+
+# Styling
+
+minimal: false
+dark_header: true
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "archive.html"}
+  - {file: "about.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/sam_phisher"}
+  - {title: Github, icon: github, url: "https://github.com/redskal"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+url: "https://skal.red"
+
+plugins:
+ - jekyll-feed
+ - jekyll-paginate      #gem install jekyll-paginate
