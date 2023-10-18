@@ -8,7 +8,7 @@ redirect_from:
 
 Just a penetration tester with an interest in Windows AD, Azure, and malware development.
 
-I currently hold certifications:
+I currently hold these certifications:
 
 <img src="/img/certs/pentestplus.png" width="110px">
 <img src="/img/certs/crto.png" width="100px">
